@@ -26,7 +26,8 @@ var IndicesStatus = Backbone.Collection.extend({
     model: IndicesStatusTimestamp,
 
     url: function() {
-        return '/_status';
+        //return '/_status';  // he index _status API has been replaced with the Indices Stats and Indices Recovery APIs.
+	return '/_stats'; // see https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-stats.html
     },
 
     parse: function(data) {
