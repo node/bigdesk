@@ -1,3 +1,5 @@
+#NOTE: This fork support elasticsearch 2.0 + by adding plugin.properties file without 5 charts (OS cpu, OS load, process cpu,  file system read and write ) but es 3.0 will discard _site plugin feature, please DO NOT use it in the future.
+
 # Bigdesk
 
 Live charts and statistics for Elasticsearch cluster.
