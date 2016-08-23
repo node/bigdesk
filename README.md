@@ -119,11 +119,11 @@ There are couple of options how to get and install Bigdesk. Which one to use can
 
 Install Elasticsearch then navigate to `<ES_HOME>` and execute the following command on command line:
 
-    $ ./bin/plugin -install lukas-vlcek/bigdesk/<bigdesk_version>
+    $ ./bin/plugin install lukas-vlcek/bigdesk/<bigdesk_version>
 
 where `<bigdesk_version>` specify particular Bigdesk version. For instance to install version 2.4.0 run:
 
-    $ ./bin/plugin -install lukas-vlcek/bigdesk/2.4.0
+    $ ./bin/plugin install lukas-vlcek/bigdesk/2.4.0
 
 Elasticsearch plugin manager then downloads and install Bigdesk sources:
 
